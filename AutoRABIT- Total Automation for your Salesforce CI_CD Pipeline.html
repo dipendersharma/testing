@@ -1,0 +1,1246 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Primary Meta Tags -->
+    <meta name="title">
+    <meta name="description" content="AutoRABIT&#x2019;s CI/CD solution is purpose-built for Salesforce and makes it easier for users to leverage enterprise-class DevSecOps processes.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Open Graph / Facebook -->
+
+        <meta property="og:type" content="article" />
+
+    <meta property="og:url">
+    <meta property="og:title">
+    <meta property="og:description" content="AutoRABIT&#x2019;s CI/CD solution is purpose-built for Salesforce and makes it easier for users to leverage enterprise-class DevSecOps processes.">
+    <meta property="og:image" content="https://cdn.document360.io/8711f4e7-c040-4616-aac9-d947f87e4619/Images/Documentation/autorabit%20new%20logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url">
+    <meta property="twitter:description" content="AutoRABIT&#x2019;s CI/CD solution is purpose-built for Salesforce and makes it easier for users to leverage enterprise-class DevSecOps processes.">
+    <meta property="twitter:image" content="https://cdn.document360.io/8711f4e7-c040-4616-aac9-d947f87e4619/Images/Documentation/autorabit%20new%20logo.png">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="description" content="AutoRABIT&#x2019;s CI/CD solution is purpose-built for Salesforce and makes it easier for users to leverage enterprise-class DevSecOps processes." />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="description" content="AutoRABIT&#x2019;s CI/CD solution is purpose-built for Salesforce and makes it easier for users to leverage enterprise-class DevSecOps processes." />
+    <meta name="keywords" content="" />
+
+        <link rel="canonical" href="https://docs.autorabit.com/docs/automated-release-management" />
+        <meta name="twitter:url" content="https://docs.autorabit.com/docs/automated-release-management">
+
+    <meta charset="utf-8">
+
+        <title>AutoRABIT- Total Automation for your Salesforce CI/CD Pipeline</title>
+        <meta name="twitter:title" content="AutoRABIT- Total Automation for your Salesforce CI/CD Pipeline">
+
+
+        <link rel="icon" href="https://cdn.document360.io/8711f4e7-c040-4616-aac9-d947f87e4619/Images/Documentation/favicon-autorabit.png" type="image/x-icon" />
+
+    <script src="https://kit.fontawesome.com/2604288d15.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="//cdn.document360.io/static/css/vendor.css?t=1597215462331" />
+
+            <link rel="stylesheet" href="//cdn.document360.io/static/css/centerTheme.css?t=1597215462331" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.css?t=1597215462331">
+    <link href="//cdn.document360.io/static/css/print.css?t=637624237779774325" media="print" rel="stylesheet" type="text/css" />
+
+
+        <style>
+         a {
+            color: #111d3b;
+        }
+            a:hover {
+                color: #18d6b3;
+            }
+        header .header_top .user-dropdown-content .user-detail .user-logout a{
+            background: #111d3b;
+            border-color: #111d3b;
+        }
+
+          header .header_top .user-dropdown-content .user-detail .user-logout a:hover {
+            background: #18d6b3;
+            border-color: #18d6b3;
+          }
+          .changePasswordFormContainer .cp-inner .btn-primary, .changeEmailFormContainer .cp-inner .btn-primary{
+             background: #111d3b;
+          }
+            .changePasswordFormContainer .cp-inner .btn-primary:hover, .changeEmailFormContainer .cp-inner .btn-primary:hover {
+              background: #18d6b3;
+            }
+        header .header_bottom {
+            background: #111d3b;
+        }
+
+        header .header_bottom .header_bottom_nav ul li a:hover {
+            background: #18d6b3;
+        }
+
+        header .header_bottom .header_bottom_nav ul li.versions-selection .version-dropdown ul li a:hover {
+            background: #111d3b;
+        }
+          header .header-dropdown-selection .header-dropdown ul li a:hover {
+             background: #111d3b;
+          }
+          footer .footer_social ul li a {
+            background: #111d3b;
+          }
+
+        footer .footer_social ul li a:hover {
+            background: #18d6b3;
+            }
+
+        .help_box .btn_primary {
+            background: #111d3b;
+        }
+        .help_box .btn_primary:hover {
+            background: #18d6b3;
+        }
+
+        .left_sidebar .left_sidebar_nav ul li a.active {
+            background: #111d3b;
+        }
+
+        .landing_top .search-sec .search-icon-btn {
+            color: #111d3b;
+        }
+        .landing_top a.header-link:hover {
+            color: #111d3b;
+        }
+        .landing_top.no-cover a.header-link:hover {
+            background:#111d3b;
+            color:#FFF;
+            border-color:#111d3b;
+        }
+         .contributor-hero-section {
+            background:  #111d3b;
+        }
+        .contributor-article-pagination ul li.active {
+            background:  #111d3b;
+        }
+        .progress-container .progress-bar {
+            background: #111d3b;
+        }
+        .progress-container .progress-bar .progress-shadow {
+            box-shadow: #111d3b 0px 0px 10px;
+        }
+        .search-results-container #hits .ais-Hits-list li .header_search_Results div{
+             color: #111d3b;
+        }
+        .search-results-container #pagination .ais-Pagination-list li.ais-Pagination-item--selected a {
+            background: #111d3b;
+        }
+        .contributor-top-head .top-header-l .versions-selection .version-dropdown ul li a:hover {
+            background: #111d3b;
+        }
+      .left-sidebar-toggle .left-arrow:hover {
+          color: #ffffff;
+          background: #111d3b !important;
+          border-color: #111d3b !important;
+      }
+      .left-sidebar-toggle .right-arrow:hover {
+          color: #ffffff;
+          background: #111d3b !important;
+          border-color: #111d3b !important;
+      }
+      .left-sidebar-toggle:hover + .left_sidebar .left_sidebar_nav:after, .left-sidebar-toggle:hover + .left_sidebar .left_sidebar_nav:after {
+          background: #111d3b;
+      }
+      #doc_feedback_collect .actions .btn.btn-primary{
+        background: #111d3b;
+      }
+  .content_block .content_container .content_block_head .category-contributor-info .contributor-images .other-count {
+    background-color: #111d3b;
+  }
+  .content_block .content_container .content_block_text .category-index-view .category-index-item .index-article-contributors .index-article-contributor-images .index-article-other-count{
+    background-color: #111d3b;
+  }
+  .back-to-top{
+        background-color: #111d3b;
+      }
+  div[data-snippet] .remove-callout, .code-language {
+    display: none;
+  }
+
+            .landing_widget .widget_block .widget_links li a{
+                color: #111d3b;
+            }
+
+                .landing_widget .widget_block .widget_links li a:hover{
+                    color: #111d3b;
+                }
+
+                    body,.btn{
+            font-family: Montserrat, sans-serif !important;
+        }
+
+     h1,h2,h3,h4,h5,h6{
+          font-family: Montserrat, sans-serif;
+      }
+   .contact-feedback-hero-section {
+        background-color: #111d3b;
+    }
+
+    #contactus_feedback_collect_search .actions .btn.btn-primary
+    {
+        background: #111d3b;
+    }
+
+    .contactSearchButton
+     {
+        background: #111d3b;
+     }
+     .contact-feedback-container .contact-search-fedback .contact-search-fedback-actions .contact-search-fedback-r .btn.btn-primary {
+         background-color:  #111d3b;
+         border-color:  #111d3b;
+     }
+        </style>
+
+        <style>
+             body{
+            font-family: Montserrat, sans-serif
+        }
+        </style>
+
+        <style>
+            h1, h2, h3, h4, h5, h6 {
+                font-family: Montserrat, sans-serif
+            }
+        </style>
+
+
+    <style type="text/css">
+          .content_block .content_container .content_block_head .article-info ul li.contributors-details .contributor {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: block;
+    margin: -6px 0px 0px 0px;
+}
+
+.content_block .content_container .content_block_head .article-info ul {
+    margin: 0px;
+    padding: 1px;
+    list-style: none;
+}
+
+.imgCenter {
+    text-align: left;
+    direction: ltr;
+    margin-left: 0px;
+    text-indent: 0px;
+
+}
+
+.textCenter {
+    text-align: left;
+    direction: ltr;
+    margin-left: 50px;
+    text-indent: 0px;
+    font-family: Montserrat, sans-serif, Helvetica, Arial !important;
+}
+
+.content_block .content_container .content_block_text img.fr-dii {
+    vertical-align: bottom !important;
+    margin-bottom: 0px !important;
+}
+
+.content_block .content_container .content_block_text ol {
+    padding-left: 10px !important;
+}
+
+.content_block .content_container .content_block_text ul {
+    padding-left: 15px !important;
+}
+
+.content_block .content_container .content_block_text ul>li {
+    padding-left: 5px;
+}
+
+table {
+    width: 100% !important;
+}
+
+.p {
+    margin-left: 0px !important;
+    text-indent: 10px !important;
+}
+}
+
+.content_block .content_container .content_block_text ul li p {
+    float: left !important;
+}
+
+.list-marker {
+    min-width: 0px !important;
+}
+
+.configuringinfo .infoBox {
+    margin-left: 20px !important;
+}
+
+.hide {
+    display: none;
+}
+
+.giri {
+    width: 1300px;
+    height: 200px;
+    margin: 0px auto;
+    background: #F00;
+}
+
+
+.content_block .content_container .content_block_text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: .08px;
+    color: #333333;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    word-wrap: break-word;
+}
+
+body.dark_theme {
+    color: #fff;
+}
+
+body.dark_theme .articles-attachments .attachments-list .attachments-list-l .file-name a,
+body.dark_theme .content_block .content_container .content_block_text {
+    color: #ffffff;
+}
+
+body.dark_theme .container .left_sidebar .left_sidebar_nav ul li a {
+    color: #ffffff;
+}
+
+body.dark_theme .left_sidebar_nav ul li a {
+    color: #ffffff;
+}
+
+body.dark_theme .articles-attachments .attachments-title,
+body.dark_theme .content_block .content_container .content_block_head h1 {
+    color: #fff;
+}
+
+.dark_theme .content_block .content_container .content_block_text h2,
+.dark_theme .content_block .content_container .content_block_text h2 a:not([class]) {
+    color: #fff;
+}
+
+.dark_theme .content_block .content_container .content_block_text h3,
+.dark_theme .content_block .content_container .content_block_text h3 a:not([class]) {
+    color: #fff;
+}
+
+body.dark_theme .content_block .content_container .page-action .article_action_links ul li.selected a {
+    color: #fff;
+}
+
+.content_block .content_container .content_block_text a:not([class]),
+.related-articles-container a:not([class]) {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: .08px;
+    color: rgb(167 16 65 / 90%);
+    text-decoration: underline;
+    background-color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-size: calc(1.075rem + 0.83333vw);
+    display: inline;
+}
+
+h2:after {
+    content: "";
+    display: block;
+}
+
+.content_block .content_container .content_block_head h1 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 2.2;
+    letter-spacing: .15px;
+    color: #677A89;
+    margin: 0px 0px 8px 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.content_block .content_container .content_block_text h2,
+.content_block .content_container .content_block_text h2 a:not([class]) {
+    font-size: 22px;
+    font-weight: 600;
+    line-height:
+        /* 42px */
+        140%;
+    letter-spacing: -0.81px;
+    margin: 0px 0px 7px 0px;
+    color: #677A89;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    padding-bottom: 17px;
+    padding-top: 11px;
+    display: block;
+}
+
+.content_block .content_container .content_block_text h3 {
+    margin: 28px 0px 4px 0px;
+    font-size: 18px;
+    color: #677A89;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.errorBox,
+.infoBox,
+.warningBox {
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.57;
+    letter-spacing: .07px;
+    border-left: 4px solid transparent;
+    background: #b2e4d2;
+    color: #48494e;
+}
+
+.infoBox,
+body.dark_theme .infoBox {
+    border-color: rgb(12 15 128 / 75%);
+}
+
+.warningBox,
+body.dark_theme .warningBox {
+    border-color: rgb(12 15 128 / 75%);
+}
+
+.content_block .content_container .page-action .article_action_links>p span {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-left: 13px;
+    float: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.content_block .content_container .page-action .article_action_links ul li a {
+    /* table of content */
+    padding: 3px 0px 8px 3px;
+    margin: -1px 0px 0px 0px;
+    border: none;
+    position: relative;
+    color: #999baa;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.content_block .content_container .page-action .article_action_links ul li.selected>a {
+    /* table of content selected*/
+    font-weight: 500;
+    color: #677A89;
+}
+
+body,
+html {
+    font-family: Montserrat, sans-serif, Helvetica, Arial !important;
+    color: #222;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 15px;
+    letter-spacing: .08px;
+}
+
+.left_sidebar {
+    width: 25%;
+    padding: 1.5rem;
+}
+
+.left_sidebar .left_sidebar_nav ul li a .article-title {
+    flex: 1;
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow: auto;
+    color: #677A89;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    line-height: 20px;
+}
+
+.left_sidebar .left_sidebar_nav ul li a.active {
+    background: #79cde4;
+}
+
+.content_block .content_container .page-action .article_action_links {
+    padding: 16px 0;
+    margin: 2px 2px 17px;
+    background: #8fcde059;
+    border-radius: 9px;
+    font-size: 13px;
+}
+
+.content_block .content_container .content_block_text .category-index-view .category-index-item .index-article-snippet {
+    color: #111d3b;
+    font-size: 15px;
+    line-height: 1.7;
+    padding-bottom: 10px;
+}
+
+table th {
+    background: #79cde4;
+    font-weight: 600;
+    text-align: left;
+}
+
+table tr,
+table th,
+table td {
+    border: 1px solid #aab9de;
+    padding: 4px 8px;
+    word-break: normal;
+    word-wrap: normal;
+    text-align: left;
+}
+
+header .header_top {
+    padding: 10px 0;
+    box-shadow: inset 0 2px 4px 0px hsl(224deg 53% 15%);
+    background: #f7caca14;
+    position: relative;
+}
+
+header .header_top .header_top_nav ul li a {
+    color: #677A89;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+header .header_top .header_top_nav ul li a.action-item {
+    padding: 2px 10px 3px 10px;
+    border-radius: 3px;
+    color: white;
+    background: #3e577f;
+}
+
+header .header-dropdown-selection .btn-select {
+    padding: 2px 20px 2px 10px;
+    margin: 0px 0px 0px 0px;
+    border: rgba(0, 0, 0, 0.1) solid 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    max-width: 230px;
+    display: flex;
+    align-items: center;
+    color: #677a89;
+    font-weight: 500;
+}
+
+.landing-category-section .col-block {
+    width: 24%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    border: solid 1px #D6E4ED;
+    background: #fff;
+    padding: 0px 5px;
+    border-radius: 5px;
+    height: 135px;
+    text-align: center;
+    float: left;
+    max-width: 30%;
+    margin: 0px 0px 10px 10px;
+}
+
+
+.landing-category-section .category-title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    width: 100%;
+    flex: none;
+    padding: 0px 0px 10px 0px;
+    text-align: left;
+    margin: 20px 0 10px 10px;
+    color: rgba(14, 125, 193, 1);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footer-theme-b .f-top .section-title {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #12ffbdde;
+    font-size: 0.9375rem;
+    padding: 0px 0px 10px 0px;
+}
+
+.footer-theme-b .f-top .theme-a-menu li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 0px 5px 0px;
+}
+
+.landing-category-section .col-block h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    color: #677A89;
+    font-size: 13px;
+    line-height: normal;
+    text-align: center;
+    font-weight: 400;
+    height: 0px;
+    padding-top: 18px;
+    background: #FFFFFF;
+    display: table-cell;
+    vertical-align: middle;
+    width: 500px;
+    border-top: 1px solid #D6E4ED;
+}
+
+.landing-category-section .col-block p {
+    margin: 0px;
+    line-height: 1.5rem;
+    padding: 0px;
+    color: #262129;
+    font-size: 0.9375rem;
+}
+
+.landing_widget .widget_block h3 {
+    margin: 0px 0px 10px 0px;
+    font-weight: 400;
+    padding: 0px;
+    font-size: 19px;
+    color: #3e7dc3;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.landing_widget .widget_block .widget_links li a {
+    color: #677a89;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.landing_widget .widget_block .widget_links li {
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    display: block;
+    position: relative;
+}
+
+.landing_widget .widget_block .widget_links li:before {
+    content: "\F00C";
+    display: none;
+    position: absolute;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+    font-size: 0.75rem;
+    top: 2px;
+    left: 5px;
+    color: #b3b3b3;
+}
+
+/* Mobile View Stylesheet */
+
+@media only screen and (max-width: 767px) .landing-category-section .col-block {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    flex: none;
+    max-width: 100%;
+}
+
+
+header .header_top .header_logo img {
+    max-height: 32px;
+    /* max-width: 221px; */
+    vertical-align: middle;
+}
+
+header .header-dropdown-selection .btn-select .v-name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.landing-category-section .col-block .category-l {
+    flex: 0 0 80px;
+    /* text-align: left; */
+    padding: 10px 0;
+    height: 75px !important;
+    filter: opacity(75%);
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+.landing-category-section .col-block a {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.landing-category-section {
+    padding: 40px 0px 20px 0px;
+    display: block;
+}
+
+.landing_widget .widget_block {
+    padding: 0px 25px 30px 11px;
+    width: 33.33333333%;
+    flex: 0 0 33.33333333%;
+    max-width: 25%;
+}
+
+.landing_top a.header-link {
+    position: relative;
+    margin: 10px 29px 2px 0px;
+    display: inline-block;
+    padding: 4px 10px;
+    text-align: center;
+    color: #FFF;
+    border: #65bee4 solid 2px;
+    border-radius: 2px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    min-width: 110px;
+    text-decoration: none;
+}
+
+.landing_top h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 1.8rem;
+}
+
+.landing_top .promo-text {
+    font-size: 1.05rem;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.landing_top .search-sec .ais-SearchBox-submit svg {
+    width: 18px;
+    height: 18px;
+    margin-top: -2px;
+}
+
+.landing_top .search-sec input[type="search"] {
+    -webkit-appearance: none;
+    background: #FFF;
+    border: #FFF solid 1px;
+    border-radius: 4px;
+    height: 43px;
+    display: block;
+    width: 100%;
+    padding: 0px 30px 0px 40px;
+    outline: none;
+    font-size: 0.9375rem;
+}
+
+.landing_top {
+    padding: 48px 0px 32px 0px;
+    color: #FFFFFF;
+    background: url(https://cdn.document360.io/8711f4e7-c040-4616-aac9-d947f87e4619/Images/Documentation/autorabit_bgoptimized.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-category-section .col-block .more-icon {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: #ffffff;
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 3px 5px;
+    border-radius: 4px 0px 4px 0px;
+}
+
+header .header_bottom .header_bottom_nav ul li.versions-selection .version-select .v-name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+header .header_bottom .header_bottom_nav ul li.versions-selection .version-dropdown ul li a .v-name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #677A89;
+}
+
+.breadcrumb-sec {
+    padding: 7px 0px 2px 0px;
+    margin: 0px;
+    color: #677A89;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content_block .content_container .content_block_head .article-info ul li {
+    display: flex;
+    align-items: flex-start;
+    float: left;
+    font-size: 0.8125rem;
+    color: #677A89;
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+    position: relative;
+}
+
+.content_block .content_container .content_block_head .category-contributor-info .contributor-names {
+    padding: 0px;
+    margin: 0px 0px 0px 15px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.content_block .content_container .content_block_head .title-article-count {
+    font-size: 16px;
+    margin: -3px 0px 0px 110px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.content_block .content_container .content_block_text h4 {
+    margin: 36px 0px 6px 0px;
+    color: #677a98;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-bottom: 13px;
+}
+
+.content_block .content_container .page-action .related-articles ul {
+    /* margin: 0px; */
+    /* padding: 9px; */
+    list-style: none;
+    padding: 18px 0px 8px 3px;
+    margin: 7px 0px 0px 13px;
+    border: none;
+    position: relative;
+    color: #999baa;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.content_block .content_container .page-action .related-articles p {
+    /* font-size: 0.9375rem; */
+    /* font-weight: 600; */
+    /* display: inline-block; */
+    /* margin: 0; */
+    /* padding: 0; */
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-left: 13px;
+    float: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.content_block .content_container .page-action .related-articles {
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+    padding: 16px 0;
+    margin: 2px 2px 17px;
+    background: #8fcde059;
+    border-radius: 9px;
+    font-size: 13px;
+}
+
+.content_block .content_container .page-action .related-articles ul li {
+    margin: 0px 6px 3px -2px;
+    padding: 4px 0px 8px 0px;
+    word-break: break-word;
+    word-wrap: break-word;
+    display: block;
+    color: #999baa;
+}
+    </style>
+
+
+        <style type="text/css">
+    .custom-footer {
+    position: relative;
+    z-index: 9;
+    background: #ffffff;
+    font-size: 14px;
+    color: #666;
+    padding-bottom: 38px;
+    padding: 18px 36px;
+    /* margin-left: 75px; */
+    display: block;
+    /* flex: none; */
+    /* max-width: 100%; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+        </style>
+    <script>
+        var layoutData = {
+            domainName: 'document360.io',
+            projectVersionId: '41304779-76d7-4943-9ea3-a7c0bfa344a1',
+            algoliaSearchKey: 'OGEwN2NhN2ZjNTM2OGZjYzk1ZTZiMGI0NzdiNmQxNWE5NzliNzc3NjA1Mzg3MzBhMzk1MjBiYzUxYzljNTdlY3Jlc3RyaWN0SW5kaWNlcz1jYzU4ZDYzNS03M2MxLTQ1ZWItYWVlMC05NGZlOGRkZjhiOWImdmFsaWRVbnRpbD0xNjI3NDY0OTU0',
+            algoliaAppId: 'JX9O5RE9SU',
+            projectId: '8711f4e7-c040-4616-aac9-d947f87e4619',
+            versionSlug: 'july-2021',
+            mainVersion: 'True' === 'True',
+            cdn: 'cdn.document360.io/static',
+            hasCategoryRestriction: 'False' === 'True',
+            allowedCategories: ('[]').replace(/&quot;/g, '"'),
+            languageVersionId: 'cc58d635-73c1-45eb-aee0-94fe8ddf8b9b',
+            isDefaultLanguage: 'True' === 'True',
+            langCode: 'en',
+            viewAllResults: 'View all results for',
+            userName: '',
+            emailId: '',
+            hideUserFeedbackNameEmail: 'False' === 'True',
+            enableSearchHighlight: true,
+            hostingPath: 'docs',
+            projectDomain : 'knowledgebase.autorabit.com'
+        };
+    </script>
+
+    <script type="text/javascript">
+        if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent))
+            document.write('<script src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries"><\/script>');
+    </script>
+    <script src="//cdn.document360.io/static/js/vendor.js?637624237779774325"></script>
+    <script src="//cdn.document360.io/static/js/datacollector.js?637624237779774325"></script>
+
+    
+
+</head>
+
+
+<body class=''>
+
+    
+
+    <div class="mobile_header_logo"></div>
+    <div class="search_overlay"></div>
+
+    <header id="doc_header">
+        <div class="header_top">
+            <div class="container">
+                <a href="https://autorabit.com" class="header_logo">
+                        <img src="https://cdn.document360.io/logo/8711f4e7-c040-4616-aac9-d947f87e4619/93971f9acec24a30b8a3d1c7e189790e-Autorabit-Logo-Dark.png" alt="AutoRABIT" />
+                </a>
+                    <div class="header_top_nav">
+                        <div class="header_top_nav_left">
+                            <ul>
+                            </ul>
+                        </div>
+
+                        <div class="header_top_nav_right">
+                            <ul>
+                                                    <li><a href="https://support.autorabit.com/portal/en/home" target="_blank">Raise a Ticket</a></li>
+                                                    <li><a href="https://www.autorabit.com/contact/" target="_blank">Request a Demo</a></li>
+                                                    <li><a href="https://www.autorabit.com/welcome-to-the-autorabit-academy/" target="_blank" style="background:#3e577f;color:#ffffff;" class="action-item">AutoRABIT Academy</a></li>
+                            </ul>
+                        </div>
+                        <div class="header_top_nav_options">
+
+
+
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div id="smartBarContainer1">
+        </div>
+
+                <div class="header_bottom">
+                    <div class="container">
+                        <div class="header_bottom_nav">
+                            <ul>
+                                    <li><a href="/july-2021/en" class="home-icon"><i class="fal fa-home"></i></a></li>
+                                        <li class="versions-selection">
+                                            <div class="version-select">
+                                                    <span class="v-name">July 2021</span>
+                                                    <div class="v-status beta">Beta</div>
+                                            </div>
+                                            <div class="version-dropdown">
+                                                <ul>
+                                                        <li>
+                                                            <a class='active' href="/july-2021/docs" title="July 2021">
+                                                                <span class="v-name">July 2021</span>
+                                                                    <span class="v-status beta">Beta</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class='' href="/june-2021/docs" title="June 2021">
+                                                                <span class="v-name">June 2021</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class='' href="/apr21/docs" title="April 2021">
+                                                                <span class="v-name">April 2021</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class='' href="/v-21/docs" title="March 2021">
+                                                                <span class="v-name">March 2021</span>
+                                                            </a>
+                                                        </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                            </ul>
+
+                                <div class="header_search">
+                                    <div class="header_search_box" id="header_search_box">
+                                        <div class="aa-input-container search-form" id="aa-input-container">
+                                            <div name="searchform" id="Searchform">
+                                                <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Search" name="search" autocomplete="off" />
+                                                <a class="ais-SearchBox-submit" id="all_search_results" href="#">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 40 40"><path d="M26.804 29.01c-2.832 2.34-6.465 3.746-10.426 3.746C7.333 32.756 0 25.424 0 16.378 0 7.333 7.333 0 16.378 0c9.046 0 16.378 7.333 16.378 16.378 0 3.96-1.406 7.594-3.746 10.426l10.534 10.534c.607.607.61 1.59-.004 2.202-.61.61-1.597.61-2.202.004L26.804 29.01zm-10.426.627c7.323 0 13.26-5.936 13.26-13.26 0-7.32-5.937-13.257-13.26-13.257C9.056 3.12 3.12 9.056 3.12 16.378c0 7.323 5.936 13.26 13.258 13.26z"></path> </svg>
+                                                </a>
+                                                <button class="ais-SearchBox-reset" style="display:none" id="cancel-search-input">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="10" height="10"> <path d="M8.114 10L.944 2.83 0 1.885 1.886 0l.943.943L10 8.113l7.17-7.17.944-.943L20 1.886l-.943.943-7.17 7.17 7.17 7.17.943.944L18.114 20l-.943-.943-7.17-7.17-7.17 7.17-.944.943L0 18.114l.943-.943L8.113 10z"></path> </svg>
+                                                </button>
+                                                <span class="ais-SearchBox-loadingIndicator" style="display:none" id="search-input-loading">
+                                                    <svg width="16" height="16" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg" stroke="#444"> <g fill="none" fillrule="evenodd"> <g transform="translate(1 1)" strokewidth="2"> <circle strokeopacity=".5" cx="18" cy="18" r="18"></circle> <path d="M36 18c0-9.94-8.06-18-18-18" transform="rotate(3.02328 18 18)"> <animateTransform attributeName="transform" type="rotate" from="0 18 18" to="360 18 18" dur="1s" repeatCount="indefinite"></animateTransform> </path> </g> </g> </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            <div class="headermobile_nav360"></div>
+
+        <div id="bread-crumb-container">
+        </div>
+
+    </header>
+
+    <div class="main_content_block" id="doc_main_content">
+        <div>
+            
+
+
+<div class="container docs-main">
+    <div class="docs-main-content">
+
+        <div class="left_sidebar">
+            <div class="left-sidebar-header">Contents <span>x</span></div>
+            <div class="left_sidebar_main">
+                <div id="doc_left_sidebar" class='left_sidebar_nav first_ct_open'>
+                    <div class="filter_form">
+                        <div class="filterform">
+                            <input id="category_filter" type="search" name="filter" placeholder="Filter">
+                            <a href="#" class="filter_close_btn"></a>
+                        </div>
+                        <div class="filter_no_result" id="no-result-found">No matching results found</div>
+                    </div>
+                    <div class="left_sidebar_nav_menu" id="left_sidebar_nav_menu">
+                        <ul id="categories" class="leftsidebarnav">
+                            <li id="loading_category">
+                                <div class="categories-loading">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                        <div class="watermark_logo" style="display:block!important;">
+                            <a href="https://document360.io/powered-by-document360/?utm_source=docs&utm_medium=footer&utm_campaign=poweredbylogo" target="_blank" style="display:block!important;">
+                                <span>Powered by</span><img style="display:inline!important;" src="https://cdn.document360.io/static/images/docuent360_logo_black.png" alt="Document360">
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="content_block" id="doc_content_block">
+            <div id="loadingArticle" style="display:none">
+                <div class="content_container">
+                    <div class="content_container_text_sec ">
+                        <div class="content_container_text_sec_in article-content-loading">
+                            <div class="content_block_head">
+                                <div class="article-title">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="content_block_text">
+                                <div class="article-content">
+                                    <div class="text">
+                                        <span></span> <span></span> <span></span> <span></span>
+                                    </div>
+                                    <div class="text-img">
+                                        <div class="image">
+                                        </div>
+                                        <div class="img-text">
+                                            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                                        </div>
+                                    </div>
+                                    <div class="text-img">
+                                        <div class="img-text">
+                                            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                                        </div>
+                                        <div class="image">
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        <span></span> <span></span> <span></span> <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="left-sidebar-toggle">
+                <span class="left-arrow" title="Hide category">
+                    <i class="fas fa-caret-left"></i>
+                </span>
+                <span class="right-arrow" title="Show category">
+                    <i class="fas fa-caret-right"></i>
+                </span>
+            </div>
+
+
+            <div id="partialViewContainer">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+this.documentData = {
+    articleId: '1b7f4bc8-69ce-46f8-b737-6076b200eac8',
+    categoryId: '1b7f4bc8-69ce-46f8-b737-6076b200eac8',
+    authorId: '5e592cf9af31fe0c93d9b6b9',
+    categoryData: '{\&quot;order\&quot;:0,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;1b7f4bc8-69ce-46f8-b737-6076b200eac8\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;f0658003-c79e-43ce-944f-14ce8bd0b615\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;1b7f4bc8-69ce-46f8-b737-6076b200eac8\&quot;,\&quot;slug\&quot;:\&quot;arm-releasenote-july\&quot;,\&quot;title\&quot;:\&quot;Release Note\&quot;,\&quot;icon\&quot;:\&quot;\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;3954d0b4-45cc-45af-804b-8f6121cac9ac\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;1b7f4bc8-69ce-46f8-b737-6076b200eac8\&quot;,\&quot;slug\&quot;:\&quot;previous-version-documentation\&quot;,\&quot;title\&quot;:\&quot;Previous Version Documentation\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;686460a8-205e-465d-b7c0-c3b264ad1d62\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;39444b6d-4376-4dab-8a56-5c322b5cfa55\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;salesforce-the-tools-you-need-to-be-successful\&quot;,\&quot;title\&quot;:\&quot;Salesforce - The Tools You Need to Be Successful\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;78763eda-0c11-4e65-836e-0aa0efa0d91b\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;686460a8-205e-465d-b7c0-c3b264ad1d62\&quot;,\&quot;slug\&quot;:\&quot;signup-and-login\&quot;,\&quot;title\&quot;:\&quot;Signup and Login\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;3d8648c3-0eac-424c-a1d6-7c89415a94b0\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;686460a8-205e-465d-b7c0-c3b264ad1d62\&quot;,\&quot;slug\&quot;:\&quot;arm-reset-your-password\&quot;,\&quot;title\&quot;:\&quot;Reset your Password\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;1386ee22-187c-4e36-9bef-079e04701fc4\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;686460a8-205e-465d-b7c0-c3b264ad1d62\&quot;,\&quot;slug\&quot;:\&quot;navigating-autorabit-1\&quot;,\&quot;title\&quot;:\&quot;Navigating AutoRABIT\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;f30bd2c4-4324-4912-b8c3-00389b4c23ea\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;852efa2a-9ac7-48e9-a02f-a06184758201\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;predefined-roles\&quot;,\&quot;title\&quot;:\&quot;Predefined Roles\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;686460a8-205e-465d-b7c0-c3b264ad1d62\&quot;,\&quot;slug\&quot;:\&quot;users-roles-and-permissions\&quot;,\&quot;title\&quot;:\&quot;Users, Roles and Permissions\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;59cd8d2d-dcf1-46d3-974d-c9dfcd5b951a\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;686460a8-205e-465d-b7c0-c3b264ad1d62\&quot;,\&quot;slug\&quot;:\&quot;my-profile-1\&quot;,\&quot;title\&quot;:\&quot;My Profile\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;e864388a-2ccf-4502-ae91-531e3448ab66\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;bb84cae7-0277-4992-a48a-9b76fc3b699a\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;e8c42b2d-e663-41c8-b7b3-29e644634b6d\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;git\&quot;,\&quot;title\&quot;:\&quot;GIT\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;a37f6521-cfd5-4625-bf75-175c802915e3\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;svn\&quot;,\&quot;title\&quot;:\&quot;SVN\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;5409831f-5108-4cfc-85f2-569ada95c4e2\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;tfs\&quot;,\&quot;title\&quot;:\&quot;TFS\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;e864388a-2ccf-4502-ae91-531e3448ab66\&quot;,\&quot;slug\&quot;:\&quot;version-control-repository\&quot;,\&quot;title\&quot;:\&quot;Version Control Repository\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;20ce140d-7c66-4cc1-8918-c39bbf862cba\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;c3d054ef-cdb4-448b-8104-4b518b0faa15\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;git-branch\&quot;,\&quot;title\&quot;:\&quot;GIT\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;63248030-43ae-4638-a073-4a35a7c27535\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;svn-branch\&quot;,\&quot;title\&quot;:\&quot;SVN\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;8d7ae527-4f6e-4c6f-b870-0a37d5e28aa5\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;tfs-branch\&quot;,\&quot;title\&quot;:\&quot;TFS\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;e864388a-2ccf-4502-ae91-531e3448ab66\&quot;,\&quot;slug\&quot;:\&quot;version-control-branch\&quot;,\&quot;title\&quot;:\&quot;Version Control Branch\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;bc9c8ccd-0980-4fce-b913-8add6fd151bb\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;e864388a-2ccf-4502-ae91-531e3448ab66\&quot;,\&quot;slug\&quot;:\&quot;salesforce-org\&quot;,\&quot;title\&quot;:\&quot;Salesforce Org\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;686460a8-205e-465d-b7c0-c3b264ad1d62\&quot;,\&quot;slug\&quot;:\&quot;registration\&quot;,\&quot;title\&quot;:\&quot;Registration\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;1b7f4bc8-69ce-46f8-b737-6076b200eac8\&quot;,\&quot;slug\&quot;:\&quot;getting-started-1\&quot;,\&quot;title\&quot;:\&quot;Getting Started\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;cacd50f2-d4de-4bb6-80ac-cec5daa94ce5\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;af281372-8552-4e69-a518-223d4dbef834\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;cb99d9f1-51f6-448e-a95c-a912ba9c3991\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;sso-for-okta\&quot;,\&quot;title\&quot;:\&quot;SSO for OKTA\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;6bb6935a-83db-457c-9c29-fb0b8aaaa473\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;sso-for-adfs\&quot;,\&quot;title\&quot;:\&quot;SSO for ADFS\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;7329ce16-03fc-4252-bbdd-b7afd1f4cac6\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;sso-for-pingfederate\&quot;,\&quot;title\&quot;:\&quot;SSO for PingFederate\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;5d6a964b-ec5d-4fb2-978a-3664c75731bc\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;sso-with-microsoft-azure-ad\&quot;,\&quot;title\&quot;:\&quot;SSO with Microsoft Azure AD\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;cacd50f2-d4de-4bb6-80ac-cec5daa94ce5\&quot;,\&quot;slug\&quot;:\&quot;single-sign-on-sso\&quot;,\&quot;title\&quot;:\&quot;Single Sign-On (SSO)\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;f9c489d1-3aba-4de1-93f9-7f5fdca113b3\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;cacd50f2-d4de-4bb6-80ac-cec5daa94ce5\&quot;,\&quot;slug\&quot;:\&quot;active-directory\&quot;,\&quot;title\&quot;:\&quot;Active Directory\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;0fb4b0d6-3fb9-4d24-8335-05ece89cf4e2\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;cacd50f2-d4de-4bb6-80ac-cec5daa94ce5\&quot;,\&quot;slug\&quot;:\&quot;jira\&quot;,\&quot;title\&quot;:\&quot;JIRA\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;3eb7c15f-7aef-43a7-8dde-46f145eab1b9\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;cacd50f2-d4de-4bb6-80ac-cec5daa94ce5\&quot;,\&quot;slug\&quot;:\&quot;azure-devops\&quot;,\&quot;title\&quot;:\&quot;Azure DevOps\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;a73b05e4-146f-42e4-9d78-a173c8369a51\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;7ac6ed1c-7ccb-4f10-860e-10d3613f24b9\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;commit-the-vlocity-components-to-a-branch\&quot;,\&quot;title\&quot;:\&quot;Commit the Vlocity components to a branch\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;10e526a5-dffb-421a-ad06-a7d1a3ed5b2d\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;deploy-vlocity-components-from-version-control-branch-to-a-salesforce-org-using-ci\&quot;,\&quot;title\&quot;:\&quot;Deploy Vlocity components from Version Control Branch to a Salesforce Org using CI\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;cacd50f2-d4de-4bb6-80ac-cec5daa94ce5\&quot;,\&quot;slug\&quot;:\&quot;vlocity\&quot;,\&quot;title\&quot;:\&quot;Vlocity\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;51467b6c-d12e-49c1-bd32-4014cf69aca0\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;cacd50f2-d4de-4bb6-80ac-cec5daa94ce5\&quot;,\&quot;slug\&quot;:\&quot;accelq\&quot;,\&quot;title\&quot;:\&quot;AccelQ\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;955679b5-6b26-4140-add7-4097e229f46b\&quot;,\&quot;order\&quot;:7,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;c13e2a1f-8a25-4457-bfa1-21dcb1d977e3\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;hashicorp-backup\&quot;,\&quot;title\&quot;:\&quot;Hashicorp-backup\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;cacd50f2-d4de-4bb6-80ac-cec5daa94ce5\&quot;,\&quot;slug\&quot;:\&quot;hashicorp-vault\&quot;,\&quot;title\&quot;:\&quot;HashiCorp Vault\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;61e31ec0-e816-4c83-ac98-518206fd0ede\&quot;,\&quot;order\&quot;:8,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;cacd50f2-d4de-4bb6-80ac-cec5daa94ce5\&quot;,\&quot;slug\&quot;:\&quot;provar\&quot;,\&quot;title\&quot;:\&quot;Provar\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;26b7b5cb-2e93-4935-89a8-8211fd334a20\&quot;,\&quot;order\&quot;:9,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;cacd50f2-d4de-4bb6-80ac-cec5daa94ce5\&quot;,\&quot;slug\&quot;:\&quot;checkmarx\&quot;,\&quot;title\&quot;:\&quot;CheckMarx\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;033a5e5b-fd95-4144-bf94-13da4d3e481c\&quot;,\&quot;order\&quot;:10,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;cacd50f2-d4de-4bb6-80ac-cec5daa94ce5\&quot;,\&quot;slug\&quot;:\&quot;apex-pmd\&quot;,\&quot;title\&quot;:\&quot;Apex PMD\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;2bcf432c-06e5-4bf7-8806-b50018d8712e\&quot;,\&quot;order\&quot;:11,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;cacd50f2-d4de-4bb6-80ac-cec5daa94ce5\&quot;,\&quot;slug\&quot;:\&quot;codescan\&quot;,\&quot;title\&quot;:\&quot;CodeScan\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;71d94902-dc8b-4a73-b81c-91403e6c9935\&quot;,\&quot;order\&quot;:12,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;cacd50f2-d4de-4bb6-80ac-cec5daa94ce5\&quot;,\&quot;slug\&quot;:\&quot;sonarqube\&quot;,\&quot;title\&quot;:\&quot;SonarQube\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;1c3ad175-a7ac-4c4b-8848-cb2e86a25512\&quot;,\&quot;order\&quot;:13,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;cacd50f2-d4de-4bb6-80ac-cec5daa94ce5\&quot;,\&quot;slug\&quot;:\&quot;jenkins\&quot;,\&quot;title\&quot;:\&quot;Jenkins\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;1b7f4bc8-69ce-46f8-b737-6076b200eac8\&quot;,\&quot;slug\&quot;:\&quot;integration-apps-and-plugins\&quot;,\&quot;title\&quot;:\&quot;Integration and Plugins\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;58258639-4586-4d84-9e2b-dc3058d06aae\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;2df5f106-b834-42cd-a8fe-5ce315de061d\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;0315cd68-6741-4b2f-bad5-888f8c08d69f\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;manage-user-account-settings\&quot;,\&quot;title\&quot;:\&quot;Manage User\u0027s Account Settings (My Account)\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;4e51d51d-b831-4e34-a7fc-c0281e57e43b\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;version-control-repositories-summary-page\&quot;,\&quot;title\&quot;:\&quot;Version Control Repositories Summary Page\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;94d1a9a2-c082-4a12-b85b-52fbd489ad04\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;salesforce-org-management-1\&quot;,\&quot;title\&quot;:\&quot;Salesforce Org Management\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;375b5d0b-8f86-4966-8103-8b628966469a\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;branching-baseline\&quot;,\&quot;title\&quot;:\&quot;Branching Baseline\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;b7ac2f17-dc2e-4f7e-9e57-88f88095c1a0\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;delegate-approvals-to-another-user\&quot;,\&quot;title\&quot;:\&quot;Delegate Approvals to another User\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;ef2dbe82-dd81-4669-b745-e3051dead5b3\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;create-users-credentials\&quot;,\&quot;title\&quot;:\&quot;Create User\u0027s Credentials\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;45af71ef-7ec5-4147-be4b-8e53a5f4db2e\&quot;,\&quot;order\&quot;:7,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;subscription-management\&quot;,\&quot;title\&quot;:\&quot;Subscription Management\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;e5e88bb4-005c-46f3-9ce3-21f89f4d33a0\&quot;,\&quot;order\&quot;:8,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;search-and-substitute\&quot;,\&quot;title\&quot;:\&quot;Search and Substitute\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;a0affd7a-f51b-41c6-9d7b-144faaf435de\&quot;,\&quot;order\&quot;:9,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;create-api-token\&quot;,\&quot;title\&quot;:\&quot;Create API Token\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;ba40b75c-e532-4c96-a063-263a31929d0c\&quot;,\&quot;order\&quot;:10,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;configure-mail-server-settings\&quot;,\&quot;title\&quot;:\&quot;Configure Mail Server Settings\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;63151824-ad13-429e-89d2-c799622202aa\&quot;,\&quot;order\&quot;:11,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;workspaces\&quot;,\&quot;title\&quot;:\&quot;Workspaces\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;250a7898-3e8c-4bfc-a3c5-77d01dfeec0f\&quot;,\&quot;order\&quot;:12,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;default-apex-class-configuration\&quot;,\&quot;title\&quot;:\&quot;Default Apex Class Configuration\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;49d91dac-7e4b-4fcf-9895-9cd4e3fe6c48\&quot;,\&quot;order\&quot;:13,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;record-types-picklistvalues\&quot;,\&quot;title\&quot;:\&quot;Record Types picklistValues\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;a4c5947c-a8fa-4322-8ae4-431eb067748d\&quot;,\&quot;order\&quot;:14,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;enable-delta-on-permissionsets\&quot;,\&quot;title\&quot;:\&quot;Enable Delta on PermissionSets\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;dae0cf9b-d8ab-4426-a915-475529bfd2a7\&quot;,\&quot;order\&quot;:15,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;register-autorabit-agent\&quot;,\&quot;title\&quot;:\&quot;Register AutoRABIT Agent\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;811f8f33-e2d7-47fd-99a6-4ec94b17ee90\&quot;,\&quot;order\&quot;:16,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;multi-proxy-configurations\&quot;,\&quot;title\&quot;:\&quot;Multi-Proxy Configurations\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;58258639-4586-4d84-9e2b-dc3058d06aae\&quot;,\&quot;slug\&quot;:\&quot;admin\&quot;,\&quot;title\&quot;:\&quot;Admin\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;7d38ff5e-c571-446d-a6b8-bdad63c3cc3d\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;68223818-62a0-432d-80ab-0dca8f0e4d13\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;dashboards-and-widgets\&quot;,\&quot;title\&quot;:\&quot;Dashboards and Widgets\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;2a3e3a0b-24eb-44c4-aa67-39f3591e6612\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;pipelines\&quot;,\&quot;title\&quot;:\&quot;Pipelines\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;58258639-4586-4d84-9e2b-dc3058d06aae\&quot;,\&quot;slug\&quot;:\&quot;dashboard-and-pipeline\&quot;,\&quot;title\&quot;:\&quot;Dashboard and Pipeline\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;fe80cc28-b858-4b1c-a3a5-e745c2b55689\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;83a7c55f-1d7c-41f3-97f6-dbbe102cd3fa\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;3fe59fb5-17f0-41b0-ad7d-dd8d7298b371\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;importance-of-version-control-in-salesforce-development\&quot;,\&quot;title\&quot;:\&quot;Importance of Version Control in Salesforce Development\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;fe80cc28-b858-4b1c-a3a5-e745c2b55689\&quot;,\&quot;slug\&quot;:\&quot;version-control-overview\&quot;,\&quot;title\&quot;:\&quot;Introduction to Version Control\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;c99bab64-06e1-4b14-a61a-8a4cb3f2c0b0\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;5bcb698d-523d-478a-92eb-b52f36fa153f\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;how-do-i-commit\&quot;,\&quot;title\&quot;:\&quot;How do I commit?\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;226d6d77-d7da-49f5-972e-ffa72e0a80db\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;commits-summary\&quot;,\&quot;title\&quot;:\&quot;Commits Summary\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;fe80cc28-b858-4b1c-a3a5-e745c2b55689\&quot;,\&quot;slug\&quot;:\&quot;ez-commits\&quot;,\&quot;title\&quot;:\&quot;EZ-Commits\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;e725ca34-6974-4ff9-a584-3322176c7546\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;66038ae8-b997-4cb8-b1d0-b4c5d8d4939a\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;merge-conflicts\&quot;,\&quot;title\&quot;:\&quot;Merge Conflicts\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;d9c25514-5bb0-4566-b357-7972de3bf204\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;merge-requests\&quot;,\&quot;title\&quot;:\&quot;Merge Requests\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;fe80cc28-b858-4b1c-a3a5-e745c2b55689\&quot;,\&quot;slug\&quot;:\&quot;ez-merge\&quot;,\&quot;title\&quot;:\&quot;EZ-Merge\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;d9053f59-e948-4c12-ad3d-1db37c9cd5d7\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;9f97a777-f6ca-4feb-9632-7ec60bad7117\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;commit-labels\&quot;,\&quot;title\&quot;:\&quot;Commit Labels\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;82ca0aad-5982-463d-a024-c11481be21c6\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;release-labels\&quot;,\&quot;title\&quot;:\&quot;Release Labels\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;c9d362c6-9b90-430f-8d13-4d19420d743a\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;alm-labels\&quot;,\&quot;title\&quot;:\&quot;ALM Labels\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;fe80cc28-b858-4b1c-a3a5-e745c2b55689\&quot;,\&quot;slug\&quot;:\&quot;change-labels\&quot;,\&quot;title\&quot;:\&quot;Change Labels\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;28979e05-cf8e-4fad-a901-3ca00db91145\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;bda79e3c-d1b6-40d4-b45a-2f68db511495\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;external-pull-request-summary-page\&quot;,\&quot;title\&quot;:\&quot;External Pull Request Summary Page\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;fe80cc28-b858-4b1c-a3a5-e745c2b55689\&quot;,\&quot;slug\&quot;:\&quot;external-pull-request\&quot;,\&quot;title\&quot;:\&quot;External Pull Request\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;df33d949-cea9-4cac-9e13-9b9d3cd53cdf\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;fe80cc28-b858-4b1c-a3a5-e745c2b55689\&quot;,\&quot;slug\&quot;:\&quot;commit-templates\&quot;,\&quot;title\&quot;:\&quot;Commit Templates\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;05b75ab7-d6e4-4e05-8184-98bd35b2fe74\&quot;,\&quot;order\&quot;:7,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;fe80cc28-b858-4b1c-a3a5-e745c2b55689\&quot;,\&quot;slug\&quot;:\&quot;git-reverts\&quot;,\&quot;title\&quot;:\&quot;GIT Revert\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;58258639-4586-4d84-9e2b-dc3058d06aae\&quot;,\&quot;slug\&quot;:\&quot;version-control\&quot;,\&quot;title\&quot;:\&quot;Version Control\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;fb55ca2c-bba5-49f8-a80b-07d61d211e6d\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;b26bf831-cecc-417d-9391-2356139b7d0e\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;1c71ce1c-19aa-4d07-9495-7c68a33afcb8\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;extract-salesforce-data\&quot;,\&quot;title\&quot;:\&quot;Extract Salesforce Data\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;a78444bd-660c-4424-b0c7-5139c387b9af\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;insert-salesforce-data\&quot;,\&quot;title\&quot;:\&quot;Insert Salesforce Data\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;c048dd76-fbe0-4d4f-bc19-23003bd65c8c\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;update-salesforce-data\&quot;,\&quot;title\&quot;:\&quot;Update Salesforce Data\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;e88e7931-b379-4bcd-8203-3fdd5fd41f16\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;upsert-salesforce-data\&quot;,\&quot;title\&quot;:\&quot;Upsert Salesforce Data\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;542ed102-f1e1-428e-a2e0-fef94ff111ec\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;delete-salesforce-data\&quot;,\&quot;title\&quot;:\&quot;Delete Salesforce Data\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;fb55ca2c-bba5-49f8-a80b-07d61d211e6d\&quot;,\&quot;slug\&quot;:\&quot;single-dataloader\&quot;,\&quot;title\&quot;:\&quot;Single DataLoader\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;dd1f8936-d599-4c0f-b56f-6d2ca5647a48\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;fb55ca2c-bba5-49f8-a80b-07d61d211e6d\&quot;,\&quot;slug\&quot;:\&quot;dataloader-pro\&quot;,\&quot;title\&quot;:\&quot;Dataloader Pro\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;0a7fd141-798e-46d8-b355-b3af473892f6\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;fb55ca2c-bba5-49f8-a80b-07d61d211e6d\&quot;,\&quot;slug\&quot;:\&quot;dataloader-configurations\&quot;,\&quot;title\&quot;:\&quot;Dataloader Configuration\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;26c0b22c-9bc7-49eb-9fed-1d5b0c5bede6\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;fb55ca2c-bba5-49f8-a80b-07d61d211e6d\&quot;,\&quot;slug\&quot;:\&quot;test-environments-setup\&quot;,\&quot;title\&quot;:\&quot;Test Environment Setup\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;2f005112-becb-4182-9700-38ba8a09e005\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;fb55ca2c-bba5-49f8-a80b-07d61d211e6d\&quot;,\&quot;slug\&quot;:\&quot;validation-workflow-rules\&quot;,\&quot;title\&quot;:\&quot;Validation/Workflow Rules\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;58258639-4586-4d84-9e2b-dc3058d06aae\&quot;,\&quot;slug\&quot;:\&quot;dataloader\&quot;,\&quot;title\&quot;:\&quot;Dataloader\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;32c57b71-4a37-45c8-a178-24a77d0e78b1\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;d8a9375e-f007-4648-9e24-7db1d6be497a\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;0c98ea31-9d09-4a42-9bbc-6b1980eea9dd\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;build-a-package-from-salesforce\&quot;,\&quot;title\&quot;:\&quot;Build a package from Salesforce\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;f6fd5f7f-4aff-4041-aeaf-71a8fdec0f59\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;backup-your-project-to-version-control\&quot;,\&quot;title\&quot;:\&quot;Backup your project to Version Control\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;57102a4e-3a38-442f-b85d-38fc184cc829\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;build-a-package-from-version-control\&quot;,\&quot;title\&quot;:\&quot;Build a package from Version Control\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;b6028717-1730-44af-bc3f-2fc22785f752\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;deploy-a-package-from-salesforce-org\&quot;,\&quot;title\&quot;:\&quot;Deploy a package from Salesforce Org\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;3312171a-9177-4e96-9d14-b6e45953055e\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;deploy-from-salesforce-with-vc-backup\&quot;,\&quot;title\&quot;:\&quot;Deploy from Salesforce with VC backup\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;7cf912bf-ea2a-41e5-aaad-6ee8bc07c56f\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;deploy-from-version-control-to-a-salesforce-org\&quot;,\&quot;title\&quot;:\&quot;Deploy from Version Control to a Salesforce Org\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;8808c628-fc0d-44c1-bafb-01bdc87d06d5\&quot;,\&quot;order\&quot;:7,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;deploy-from-sfdx-branch-to-a-salesforce-org\&quot;,\&quot;title\&quot;:\&quot;Deploy from SFDX branch to a Salesforce Org\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;a11771a8-0fc8-4127-9b2b-9467c65664ae\&quot;,\&quot;order\&quot;:8,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;run-test-automation-scripts\&quot;,\&quot;title\&quot;:\&quot;Run Test Automation Scripts\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;a3bd1328-bb9f-49a0-b61c-01c059684191\&quot;,\&quot;order\&quot;:9,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;install-an-unlocked-package-from-version-control-branch\&quot;,\&quot;title\&quot;:\&quot;Install an Unlocked Package from Version Control Branch\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;32c57b71-4a37-45c8-a178-24a77d0e78b1\&quot;,\&quot;title\&quot;:\&quot;Create a new CI Job\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;d70218db-03f1-4a7f-8957-bcb7ef7a1b10\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;trigger-builds-for-your-ci-job\&quot;,\&quot;title\&quot;:\&quot;Trigger builds for your CI Job\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;812a5ae2-32bf-483c-86ad-ef9c56d7aa01\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;ci-job-list\&quot;,\&quot;title\&quot;:\&quot;CI Job List\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;51a20fd6-4461-4893-8034-0d9291b87cc6\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;ci-job-results\&quot;,\&quot;title\&quot;:\&quot;CI Job Results\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;462a6153-7b32-4f2c-bf3e-1a0b0bc11a23\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;configure-callout-url\&quot;,\&quot;title\&quot;:\&quot;Configure Callout URL\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;4d5c5754-bb3b-45c7-9a4e-7e893ef75454\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;parallel-processor\&quot;,\&quot;title\&quot;:\&quot;Parallel Processor\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;0b6739b9-d32b-4a83-8682-e9649c98f2a6\&quot;,\&quot;order\&quot;:7,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;enabling-github-checks\&quot;,\&quot;title\&quot;:\&quot;Enabling GitHub Checks\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;58258639-4586-4d84-9e2b-dc3058d06aae\&quot;,\&quot;slug\&quot;:\&quot;automation-and-ci\&quot;,\&quot;title\&quot;:\&quot;Automation and CI\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;2820823a-94a8-43dd-8269-2ef07e6643c0\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;ac3f7849-0514-4871-8f6c-e2963ab13c8d\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;configure-a-webhook-in-github\&quot;,\&quot;title\&quot;:\&quot;Configure a webhook in GitHub\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;0f2e5dae-2752-4ccc-ba27-55145736857b\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;configure-a-webhook-in-microsoft-azure\&quot;,\&quot;title\&quot;:\&quot;Configure a webhook in Microsoft Azure\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;05f29f00-20d3-4a9f-91cc-803fac4a2826\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;configure-a-webhook-in-gitlab\&quot;,\&quot;title\&quot;:\&quot;Configure a webhook in GitLab\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;693358d6-5f53-4fd7-9080-1a568c3152d9\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;configuring-a-webhook-in-bitbucket\&quot;,\&quot;title\&quot;:\&quot;Configuring a webhook in Bitbucket\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;d142bc59-ce90-439b-8740-354570af884e\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;configuring-a-webhook-in-bitbucket-enterprise\&quot;,\&quot;title\&quot;:\&quot;Configuring a webhook in Bitbucket Enterprise\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;bba48b4a-79e6-4043-ae5c-a1bf7f4bcb0f\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;configure-a-webhook-in-visual-studio-git\&quot;,\&quot;title\&quot;:\&quot;Configure a webhook in Visual Studio GIT\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;23e8dda6-2553-4885-b275-b6fc898c38a8\&quot;,\&quot;order\&quot;:7,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;configure-a-webhook-in-visual-studio-git-enterprise\&quot;,\&quot;title\&quot;:\&quot;Configure a webhook in Visual Studio GIT Enterprise\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;58258639-4586-4d84-9e2b-dc3058d06aae\&quot;,\&quot;slug\&quot;:\&quot;webhooks\&quot;,\&quot;title\&quot;:\&quot;Webhooks\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;675639f8-ebe2-4e0b-84dc-22c4169a03dd\&quot;,\&quot;order\&quot;:7,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;094dc6e2-1c55-46df-8405-c143e4de93f3\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;monitor-deployments\&quot;,\&quot;title\&quot;:\&quot;Monitor Deployments\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;7be1583d-fabf-476c-b710-0473d401a5db\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;create-and-deploy-changes-in-autorabit\&quot;,\&quot;title\&quot;:\&quot;Create and Deploy Changes in AutoRABIT\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;d658be9d-309f-4be2-a7bd-1696f1373e56\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;apex-unit-tests\&quot;,\&quot;title\&quot;:\&quot;Apex Unit Tests\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;3639be95-561b-4d46-86a7-1e2091c16722\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;destructive-changes\&quot;,\&quot;title\&quot;:\&quot;Destructive Changes\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;fb1496a6-5b15-4ec9-ad98-5b13a688803b\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;deployment-rollback\&quot;,\&quot;title\&quot;:\&quot;Deployment Rollback\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;6f7d953d-ff93-424c-8577-035ef346e897\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;org-synchronization\&quot;,\&quot;title\&quot;:\&quot;Connecting and syncing Salesforce Orgs\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;f6bd4652-2909-4b9d-bb99-26b29a563c43\&quot;,\&quot;order\&quot;:7,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;how-do-i-deploy-profile-permissionsets\&quot;,\&quot;title\&quot;:\&quot;Deploying the Profile and PermissionSets\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;58258639-4586-4d84-9e2b-dc3058d06aae\&quot;,\&quot;slug\&quot;:\&quot;deployment\&quot;,\&quot;title\&quot;:\&quot;Deployment\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;5f50d1d5-b03a-4cbf-a83c-874f5f16fc5f\&quot;,\&quot;order\&quot;:8,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;58258639-4586-4d84-9e2b-dc3058d06aae\&quot;,\&quot;slug\&quot;:\&quot;git-tag\&quot;,\&quot;title\&quot;:\&quot;GIT Tag\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;4cda6759-34fb-48cd-87e2-8ccfb5d7a836\&quot;,\&quot;order\&quot;:9,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;47ffd97a-e957-4f57-b4ec-221e1114a564\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;92110dd2-f94a-4d2b-942d-87549271d844\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;create-a-feature-migration-template\&quot;,\&quot;title\&quot;:\&quot;Create a Feature Migration Template\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;2b776bcf-55fc-4c9e-b59f-71eca00bd908\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;create-a-feature-migration-template-with-predefined-ncino-objects\&quot;,\&quot;title\&quot;:\&quot;Create a Feature migration Template with Predefined nCino objects\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;76797ddb-af48-4b2f-b363-45ba20fb0b50\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;summary-page\&quot;,\&quot;title\&quot;:\&quot;Feature Migration Summary Page\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;4cda6759-34fb-48cd-87e2-8ccfb5d7a836\&quot;,\&quot;slug\&quot;:\&quot;feature-migration\&quot;,\&quot;title\&quot;:\&quot;Feature Migration\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;d4001810-747b-4630-b172-7d72d4923475\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;6e15279c-deb9-465b-9065-42128da7c23a\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;deployment-using-feature-migration-template-ncino\&quot;,\&quot;title\&quot;:\&quot;Deployment using Feature Migration Template\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;9c0f77b5-484e-4f04-be0c-c39f2868062b\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;deployment-via-template-using-salesforce-org\&quot;,\&quot;title\&quot;:\&quot;Deployment via Template using Salesforce Org\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;d7f8b26b-4efd-4f4b-84b8-98343824b18f\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;deployment-using-version-control\&quot;,\&quot;title\&quot;:\&quot;Deployment using Version Control\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;bc368955-d13a-48d1-abd6-57f12a789a9a\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;deployment-via-version-control-using-salesforce-org\&quot;,\&quot;title\&quot;:\&quot;Deployment via Version Control using Salesforce Org\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;0932f84c-5acc-4797-85ec-37f0b4444354\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;feature-deployment-summary\&quot;,\&quot;title\&quot;:\&quot;Feature Deployment Summary\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;4cda6759-34fb-48cd-87e2-8ccfb5d7a836\&quot;,\&quot;slug\&quot;:\&quot;feature-deployment\&quot;,\&quot;title\&quot;:\&quot;Feature Deployment\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;6ed4fe5d-2029-47cd-8e20-0afadf0261d7\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;4cda6759-34fb-48cd-87e2-8ccfb5d7a836\&quot;,\&quot;slug\&quot;:\&quot;ncino-feature-commits\&quot;,\&quot;title\&quot;:\&quot;Feature Commits\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;0b968b9b-8910-4093-8283-5b6aba8833cb\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;f5652236-a90d-425a-a994-25aff6e5f91a\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;running-a-ci-job\&quot;,\&quot;title\&quot;:\&quot;Running a CI Job\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;18d82398-7860-4254-a0d5-faf533df56f0\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;ci-job-result\&quot;,\&quot;title\&quot;:\&quot;CI Job Result \&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;c56d3c6d-98cd-4398-8efa-107f4d6074a8\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;ci-job-list-screen\&quot;,\&quot;title\&quot;:\&quot;CI Job List screen\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;4cda6759-34fb-48cd-87e2-8ccfb5d7a836\&quot;,\&quot;slug\&quot;:\&quot;feature-ci-jobs\&quot;,\&quot;title\&quot;:\&quot;Feature CI Jobs\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;58258639-4586-4d84-9e2b-dc3058d06aae\&quot;,\&quot;slug\&quot;:\&quot;ncino\&quot;,\&quot;title\&quot;:\&quot;nCino\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;dcbec9a0-d7cc-4122-a9a1-9813fb8441e6\&quot;,\&quot;order\&quot;:10,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;202dea0b-6de7-4c87-94b3-05964ffcd511\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;salesforce-dx-metadata-format\&quot;,\&quot;title\&quot;:\&quot;Salesforce DX Metadata Format\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;2d489736-799f-4118-9026-2311d8855ce2\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;registering-a-devhub\&quot;,\&quot;title\&quot;:\&quot;Registering a DevHub\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;b27b5f5c-1493-4c51-9d30-5e0a1ddada5e\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;create-a-scratch-org\&quot;,\&quot;title\&quot;:\&quot;Create a Scratch Org\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;f31a4f36-59ec-467b-85d0-9af22e76bd93\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;create-a-module\&quot;,\&quot;title\&quot;:\&quot;Create a Module\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;fb691992-b7e7-4070-b066-c8a22cf51876\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;create-an-unlocked-package\&quot;,\&quot;title\&quot;:\&quot;Create an Unlocked Package\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;58258639-4586-4d84-9e2b-dc3058d06aae\&quot;,\&quot;slug\&quot;:\&quot;salesforce-dx\&quot;,\&quot;title\&quot;:\&quot;Salesforce DX\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;9440d3f2-6243-4227-819c-d72ba7057cf1\&quot;,\&quot;order\&quot;:11,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;0964e8a1-6031-4ea3-8d7b-1c60259154de\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;overview-2\&quot;,\&quot;title\&quot;:\&quot;Overview\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;28c68652-670d-4251-8b92-fced20061fa1\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;code-coverage-report-of-a-salesforce-org\&quot;,\&quot;title\&quot;:\&quot;Code Coverage Report of a Salesforce Org\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;f1ee70bf-2742-4915-9ec3-6bf296185793\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;static-code-analysis\&quot;,\&quot;title\&quot;:\&quot;Static Code Analysis\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;db506e84-e0f7-4516-b2a5-04c150d7a95a\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;audit-report\&quot;,\&quot;title\&quot;:\&quot;Audit Report\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;58258639-4586-4d84-9e2b-dc3058d06aae\&quot;,\&quot;title\&quot;:\&quot;Reports\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;ec6c5fc1-1e86-4646-b764-e7dfded3b067\&quot;,\&quot;order\&quot;:12,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;50974e35-9e5b-46c5-a0bf-fc89acb08c1c\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;introduction-to-environment-provisioning\&quot;,\&quot;title\&quot;:\&quot;Introduction to Environment Provisioning\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;c5c5c7b1-e775-4acd-8127-34678dc71db6\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;da991331-e383-4203-a23c-dc001f0efc58\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;create-a-migration-template-based-on-enable-history-tracking-on-objects\&quot;,\&quot;title\&quot;:\&quot;Create a Migration Template based on \u0027Enable History Tracking on Objects\u0027\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;ec6c5fc1-1e86-4646-b764-e7dfded3b067\&quot;,\&quot;title\&quot;:\&quot;Migration Template\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;c211c6d4-b442-4c5f-8078-fffac9d4f63e\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;d7138db1-42cd-4117-8413-96d380709f82\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;create-a-unsupported-metadata-template\&quot;,\&quot;title\&quot;:\&quot;Create an Unsupported Metadata Template\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;ec6c5fc1-1e86-4646-b764-e7dfded3b067\&quot;,\&quot;title\&quot;:\&quot;Unsupported Metadata Template\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;58258639-4586-4d84-9e2b-dc3058d06aae\&quot;,\&quot;title\&quot;:\&quot;Environment Provisioning\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;b00e2c17-54b5-48ae-9588-b9b05ba4d53a\&quot;,\&quot;order\&quot;:13,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;912551f1-0300-4a07-ba4e-f68a3e7d8257\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;how-does-taf-accelerate-test-automation-and-reduce-costs\&quot;,\&quot;title\&quot;:\&quot;How does TAF accelerate test automation and reduce costs?\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;7406adee-3292-4f46-b6b1-5fdf28490d7a\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;taf-workflow\&quot;,\&quot;title\&quot;:\&quot;TAF workflow\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;d7eb8ffc-bf9c-4006-9934-db983b66f0f2\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;benefits-of-autorabit-test-automation-factory-compared-to-traditional-modelide-driven-development\&quot;,\&quot;title\&quot;:\&quot;Benefits of AutoRABIT Test Automation Factory compared to traditional model/IDE driven development\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;bf11cdc4-55b4-43a3-954d-72263abf1819\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;commit-selenium-test-scripts-to-a-version-control-system\&quot;,\&quot;title\&quot;:\&quot;Commit Selenium Test scripts to a Version Control System\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;f3dd9eb5-f6c3-4f8d-9301-dfdc60153af2\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;selenium-test-execution\&quot;,\&quot;title\&quot;:\&quot;Selenium Test Execution\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;58258639-4586-4d84-9e2b-dc3058d06aae\&quot;,\&quot;slug\&quot;:\&quot;test-automation-factory-taf\&quot;,\&quot;title\&quot;:\&quot;Test Automation Factory (TAF)\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;1b7f4bc8-69ce-46f8-b737-6076b200eac8\&quot;,\&quot;slug\&quot;:\&quot;top-features\&quot;,\&quot;title\&quot;:\&quot;Top Features\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;9f22d9d3-f2ba-4227-965b-6bf6950c3b27\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;80aae332-4c5a-4c70-ba32-323f519430ce\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;about-autorabit-api\&quot;,\&quot;title\&quot;:\&quot;About AutoRABIT API\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;72d7f835-f9d8-4353-9e3f-d76da80ef781\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;52cb0941-22b0-42a0-bca0-75adf0a69f15\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;get-allcijoblist\&quot;,\&quot;title\&quot;:\&quot;GET ALLCIJobList\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;4964b161-bc9f-40a5-b705-75781d860780\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;get-cijobhistory\&quot;,\&quot;title\&quot;:\&quot;GET CIJobHistory\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;be81b327-970e-43bf-a51f-221652f9c1d6\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;get-latestresults\&quot;,\&quot;title\&quot;:\&quot;GET LatestResults\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;af35a4f0-9ff9-4045-aeef-1753d4e29c99\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;get-polljobstatus\&quot;,\&quot;title\&quot;:\&quot;GET PollJobStatus\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;81f00445-c54a-4359-9bb5-c39e5ac661fb\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;get-rollbackhistory\&quot;,\&quot;title\&quot;:\&quot;GET RollbackHistory\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;438e8299-4ae0-4383-858a-cd6fee992691\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;get-rollbackdetails\&quot;,\&quot;title\&quot;:\&quot;Get RollbackDetails\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;17ad1348-e575-413c-992b-560d0fd9c96b\&quot;,\&quot;order\&quot;:7,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;post-triggerbuild\&quot;,\&quot;title\&quot;:\&quot;POST TriggerBuild\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;222eba10-cc53-415d-9865-d3fb46799873\&quot;,\&quot;order\&quot;:8,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;post-updatebaselinerevision\&quot;,\&quot;title\&quot;:\&quot;POST UpdateBaselineRevision\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;dada5da8-790f-4dd0-9dcd-89f3019eb965\&quot;,\&quot;order\&quot;:9,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;post-triggerquickdeploy\&quot;,\&quot;title\&quot;:\&quot;POST TriggerQuickDeploy\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;4646219c-a303-4017-b9b7-717001f756f9\&quot;,\&quot;order\&quot;:10,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;post-triggerrollback\&quot;,\&quot;title\&quot;:\&quot;POST TriggerRollback\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;18192337-f09b-485d-9178-cae070b4659a\&quot;,\&quot;order\&quot;:11,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;put-abortcijob\&quot;,\&quot;title\&quot;:\&quot;PUT AbortCIJob\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;b7f8d47f-f99d-412e-bb74-c6c0adc574a4\&quot;,\&quot;order\&quot;:15,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;put-migrate\&quot;,\&quot;title\&quot;:\&quot;PUT Migrate\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;ab8b4715-9aba-4aaa-aa29-c24f1815e66f\&quot;,\&quot;order\&quot;:15,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;put-migrateorgname\&quot;,\&quot;title\&quot;:\&quot;PUT MigrateOrgname\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;200f1632-14f1-42f9-b830-102b8a7723d3\&quot;,\&quot;order\&quot;:15,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;put-migratetrueorgname\&quot;,\&quot;title\&quot;:\&quot;POST Migratetrueorgname\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;9f22d9d3-f2ba-4227-965b-6bf6950c3b27\&quot;,\&quot;title\&quot;:\&quot;AutoRABIT-CI-API\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;1b7f4bc8-69ce-46f8-b737-6076b200eac8\&quot;,\&quot;title\&quot;:\&quot;APIs\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;a3724845-fec2-426f-91c4-759f70ae0158\&quot;,\&quot;order\&quot;:7,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;1b7f4bc8-69ce-46f8-b737-6076b200eac8\&quot;,\&quot;slug\&quot;:\&quot;contacting-support-1\&quot;,\&quot;title\&quot;:\&quot;Contacting Support\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;4bd3fc48-9af9-4cb9-ac86-5a961faf250f\&quot;,\&quot;order\&quot;:8,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;e4557d43-f3e4-4e1d-8255-8c2a9e07ff78\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;9c2dced8-7e6b-4983-9bdd-63aeff909fb0\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;version-control-best-practices\&quot;,\&quot;title\&quot;:\&quot;Version Control Best Practices\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;b361527b-e4ec-4713-ae79-af5cca575817\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;branching-strategy-and-cicd-pipeline\&quot;,\&quot;title\&quot;:\&quot;Branching Strategy and CI/CD Pipeline\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;9b297c8a-a207-45ad-91d5-d02c9d04bc19\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;ci-job-configurations\&quot;,\&quot;title\&quot;:\&quot;CI Job Configurations\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;f58a9267-056c-4c5e-8418-639e906bc054\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;vlocity-1\&quot;,\&quot;title\&quot;:\&quot;Vlocity\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;d115667a-b374-420a-9973-da32c9e1fc22\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;salesforce-deployment-best-practices\&quot;,\&quot;title\&quot;:\&quot;Salesforce Deployment Best Practices\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;4bd3fc48-9af9-4cb9-ac86-5a961faf250f\&quot;,\&quot;slug\&quot;:\&quot;best-practices\&quot;,\&quot;title\&quot;:\&quot;Best Practices\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;002a3ab5-251c-4328-8b53-b01b638a3b2a\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;a5736556-793c-4696-9b56-750a4aa7ef8c\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;3f55c4ca-377e-4282-a40e-1d684d35c379\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;a5736556-793c-4696-9b56-750a4aa7ef8c\&quot;,\&quot;slug\&quot;:\&quot;subscription-and-licenses\&quot;,\&quot;title\&quot;:\&quot;Subscription and Licenses\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;ff53c05f-940d-4067-abee-0262a5f0d135\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;a5736556-793c-4696-9b56-750a4aa7ef8c\&quot;,\&quot;slug\&quot;:\&quot;login-and-users\&quot;,\&quot;title\&quot;:\&quot;Login and Users\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;b8fbd2dc-eba7-4d83-b94e-be5a19fe6ed7\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;a5736556-793c-4696-9b56-750a4aa7ef8c\&quot;,\&quot;slug\&quot;:\&quot;identifier-naming\&quot;,\&quot;title\&quot;:\&quot;Identifier Naming\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;92550341-abce-401b-9862-37cbca9f7760\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;a5736556-793c-4696-9b56-750a4aa7ef8c\&quot;,\&quot;slug\&quot;:\&quot;api-tokens\&quot;,\&quot;title\&quot;:\&quot;API Tokens\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;4c2654c2-2584-4095-a78e-a8516779d76f\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;a5736556-793c-4696-9b56-750a4aa7ef8c\&quot;,\&quot;slug\&quot;:\&quot;repository-and-salesforce-org-related\&quot;,\&quot;title\&quot;:\&quot;Repository and Salesforce Org related\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;a0f4394a-5287-4045-aeee-013160284de3\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;a5736556-793c-4696-9b56-750a4aa7ef8c\&quot;,\&quot;slug\&quot;:\&quot;branching-baseline-issue\&quot;,\&quot;title\&quot;:\&quot;Branching Baseline\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;f5e9c851-17c9-44df-a43a-ea0ddfcc66f8\&quot;,\&quot;order\&quot;:7,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;a5736556-793c-4696-9b56-750a4aa7ef8c\&quot;,\&quot;slug\&quot;:\&quot;alm\&quot;,\&quot;title\&quot;:\&quot;ALM\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;6c3c72f3-1439-4264-9109-112c03f64041\&quot;,\&quot;order\&quot;:8,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;a5736556-793c-4696-9b56-750a4aa7ef8c\&quot;,\&quot;slug\&quot;:\&quot;browsers-issue\&quot;,\&quot;title\&quot;:\&quot;Browsers Issue\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;08f3623c-5226-4d8d-b078-3e5e365fbc0d\&quot;,\&quot;order\&quot;:9,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;a5736556-793c-4696-9b56-750a4aa7ef8c\&quot;,\&quot;slug\&quot;:\&quot;salesforce-cli-behaviour\&quot;,\&quot;title\&quot;:\&quot;Salesforce CLI Behaviour\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;1ca99000-afb0-45e3-90db-2867eda37d47\&quot;,\&quot;order\&quot;:10,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;a5736556-793c-4696-9b56-750a4aa7ef8c\&quot;,\&quot;slug\&quot;:\&quot;servers-related\&quot;,\&quot;title\&quot;:\&quot;Servers Related\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;002a3ab5-251c-4328-8b53-b01b638a3b2a\&quot;,\&quot;slug\&quot;:\&quot;account-and-administrator\&quot;,\&quot;title\&quot;:\&quot;Account and Administrator\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;79e7a77f-e5d3-4613-9c87-e8efd5648f0b\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;dfabf0eb-5466-4049-a5b2-26dafacc0535\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;79e7a77f-e5d3-4613-9c87-e8efd5648f0b\&quot;,\&quot;slug\&quot;:\&quot;ez-commit\&quot;,\&quot;title\&quot;:\&quot;EZ-Commit\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;9d3ca52d-3c0a-4a53-ad90-43c5fe8c30ee\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;79e7a77f-e5d3-4613-9c87-e8efd5648f0b\&quot;,\&quot;slug\&quot;:\&quot;ez-merge-faqs\&quot;,\&quot;title\&quot;:\&quot;EZ-Merge\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;ca07c6e7-76fe-4e74-b50c-9075e2e14310\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;79e7a77f-e5d3-4613-9c87-e8efd5648f0b\&quot;,\&quot;slug\&quot;:\&quot;commit-and-release-labels\&quot;,\&quot;title\&quot;:\&quot;Commit and Release Labels\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;002a3ab5-251c-4328-8b53-b01b638a3b2a\&quot;,\&quot;slug\&quot;:\&quot;faqs-version-control\&quot;,\&quot;title\&quot;:\&quot;Version Control\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;491aade0-d9f4-425c-82d7-82857d6ea7e0\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;1214a5c4-bd42-43fe-9d2a-7f04875da0a3\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;salesforce-api-version-mismatch\&quot;,\&quot;title\&quot;:\&quot;Salesforce API Version Mismatch\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;002a3ab5-251c-4328-8b53-b01b638a3b2a\&quot;,\&quot;slug\&quot;:\&quot;salesforce-dx-sfdx\&quot;,\&quot;title\&quot;:\&quot;Salesforce DX (SFDX)\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;4bd3fc48-9af9-4cb9-ac86-5a961faf250f\&quot;,\&quot;slug\&quot;:\&quot;frequently-asked-question\&quot;,\&quot;title\&quot;:\&quot;Frequently Asked Questions\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;ddfd3f8a-efb4-4654-b8da-d1bd2bbbc7ba\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;33cec183-42ce-4875-8ca0-7244810a1b37\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;deployment-related-limitations\&quot;,\&quot;title\&quot;:\&quot;Deployment related limitations\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;c4b28388-0350-4fb5-aee4-bf2b03fe118a\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;sfdx-known-issues-limitations\&quot;,\&quot;title\&quot;:\&quot;SFDX known issues/limitations\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;68ea4673-4c63-4dfd-9340-8c446c11b11b\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;pull-request-limitations\&quot;,\&quot;title\&quot;:\&quot;Pull Request limitations\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;d8f0c707-1763-443d-bb84-118fede2237e\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;version-control-related-limitations\&quot;,\&quot;title\&quot;:\&quot;Version Control related limitations\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;f82db149-1c90-4254-b384-125fea3316f3\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;salesforce-related-limitations\&quot;,\&quot;title\&quot;:\&quot;Salesforce related limitations\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;74727219-021d-478e-85ae-ad88adfd8fba\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;ci-job-related-limitations\&quot;,\&quot;title\&quot;:\&quot;CI Job related limitations\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;496f9609-2630-4614-9f80-eb05d1291eaf\&quot;,\&quot;order\&quot;:7,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;vlocity-related-limitations\&quot;,\&quot;title\&quot;:\&quot;Vlocity related Limitations\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;4bd3fc48-9af9-4cb9-ac86-5a961faf250f\&quot;,\&quot;slug\&quot;:\&quot;known-limitations\&quot;,\&quot;title\&quot;:\&quot;Known Issues and Limitations\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;ad100dea-0a2f-427b-9f87-3d7d09f2cf97\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;d44581b4-1224-4479-ab0f-f95cbb780536\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;d50f9405-c832-4dd6-8a56-31859cba1346\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;prerequisite-while-performing-a-commit-using-autorabit\&quot;,\&quot;title\&quot;:\&quot;Prerequisite while performing a commit using AutoRABIT\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;bb80f0a5-b8f2-4c30-b782-b61202258cdd\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;procedure-to-resolve-merge-conflicts\&quot;,\&quot;title\&quot;:\&quot;Procedure to Resolve Merge Conflicts\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;437d938b-9b47-44da-bed4-4379d986e1a4\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;flows-in-salesforce\&quot;,\&quot;title\&quot;:\&quot;Flows in Salesforce\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;ad100dea-0a2f-427b-9f87-3d7d09f2cf97\&quot;,\&quot;title\&quot;:\&quot;Version Control\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;12f363ce-9373-43e5-8cbe-854631abf629\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;642b7035-1415-4813-9575-d837c60f5756\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;metadata-comparison-between-two-salesforce-orgs\&quot;,\&quot;title\&quot;:\&quot;Metadata comparison between two Salesforce Orgs\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;979f2183-6ba1-4a3c-8f95-bb89020a5003\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;revision-range-and-release-label-deployment\&quot;,\&quot;title\&quot;:\&quot;Revision Range and Release Label Deployment\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;ad100dea-0a2f-427b-9f87-3d7d09f2cf97\&quot;,\&quot;title\&quot;:\&quot;Deployment\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;4bd3fc48-9af9-4cb9-ac86-5a961faf250f\&quot;,\&quot;title\&quot;:\&quot;Knowledge Bytes\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;1b7f4bc8-69ce-46f8-b737-6076b200eac8\&quot;,\&quot;slug\&quot;:\&quot;got-questions\&quot;,\&quot;title\&quot;:\&quot;Got Questions?\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;slug\&quot;:\&quot;automated-release-management\&quot;,\&quot;title\&quot;:\&quot;AutoRABIT\&quot;,\&quot;icon\&quot;:\&quot;\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;deb3a49a-47ea-422e-a6da-0b0ded0baa4d\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;1466da8f-30a5-450a-bd3e-a37a4268b05a\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;196050ee-b364-453c-817a-94aa167523cd\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;1466da8f-30a5-450a-bd3e-a37a4268b05a\&quot;,\&quot;slug\&quot;:\&quot;july-21-release\&quot;,\&quot;title\&quot;:\&quot;July, 21 Release\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;40238b67-59b9-451b-9af8-27d97cb70a9e\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;1466da8f-30a5-450a-bd3e-a37a4268b05a\&quot;,\&quot;slug\&quot;:\&quot;june-21-release\&quot;,\&quot;title\&quot;:\&quot;June, 21 Release\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;61f82a75-2cea-4899-b14b-1d1f5612d039\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;1466da8f-30a5-450a-bd3e-a37a4268b05a\&quot;,\&quot;slug\&quot;:\&quot;april-21-release\&quot;,\&quot;title\&quot;:\&quot;April, 21 Release\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;6fced2ae-0869-4b61-8e32-83f02086f55a\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;1466da8f-30a5-450a-bd3e-a37a4268b05a\&quot;,\&quot;slug\&quot;:\&quot;march-21-release\&quot;,\&quot;title\&quot;:\&quot;March, 21 Release\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;deb3a49a-47ea-422e-a6da-0b0ded0baa4d\&quot;,\&quot;slug\&quot;:\&quot;vault-release-note\&quot;,\&quot;title\&quot;:\&quot;Release Notes\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;5f3f0f29-201d-4589-bb1c-f4e47ac72752\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;82478056-f099-4936-ac8f-4561041160c5\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;registering-an-account\&quot;,\&quot;title\&quot;:\&quot;Registering an Account\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;b63ad9d0-bf0a-4255-9344-1285e61dd22d\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;sign-in\&quot;,\&quot;title\&quot;:\&quot;Sign In\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;3822adc7-2ad0-4f8e-9321-ebc313dd1cfc\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;vault-reset-your-password\&quot;,\&quot;title\&quot;:\&quot;Reset your Password\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;934b2e4d-1738-40ce-9219-99fa0f9de66e\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;users-and-roles\&quot;,\&quot;title\&quot;:\&quot;Managing Users and Roles\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;1ff87010-13ef-4a79-99e9-59b0344a5d5c\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;user-sessions\&quot;,\&quot;title\&quot;:\&quot;User Sessions\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;deb3a49a-47ea-422e-a6da-0b0ded0baa4d\&quot;,\&quot;slug\&quot;:\&quot;getting-started\&quot;,\&quot;title\&quot;:\&quot;Getting Started\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;a038cab4-46d3-48e4-ad6a-f916e848d7ce\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;8613ab0c-e445-4247-a2d0-609e1a35da2e\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;e7144f9b-ef9b-41a3-ac45-55828ba4bd58\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;amazon-aws-s3-storage-environment\&quot;,\&quot;title\&quot;:\&quot;Amazon AWS S3 Storage Environment\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;56382dce-59d9-47a5-8422-8d68b6816af7\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;creating-and-configuring-s3-bucket\&quot;,\&quot;title\&quot;:\&quot;Creating and Configuring S3 Bucket\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;aac2fb27-3168-45ad-bb99-d3c29cc701df\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;bring-your-own-key-byok-with-vault\&quot;,\&quot;title\&quot;:\&quot;Bring your own Key (BYOK) with Vault\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;a91353ca-5ef0-4963-9f93-22c6be105351\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;google-cloud-platform\&quot;,\&quot;title\&quot;:\&quot;Google Cloud Platform\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;fe9d5ee0-85a1-445e-96ce-3e651b8fd358\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;azure-blob-storage-environment\&quot;,\&quot;title\&quot;:\&quot;Azure Blob Storage Environment\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;e7a9086e-aa0a-432a-b56c-960950b5a77d\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;microsoft-azure-blob-retention-policy\&quot;,\&quot;title\&quot;:\&quot;Microsoft Azure Blob Retention Policy\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;d72d80fb-735e-47bf-8a50-b7978552ba61\&quot;,\&quot;order\&quot;:7,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;nfs\&quot;,\&quot;title\&quot;:\&quot;NFS\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;b742a355-bd58-4ff8-8a67-1da22347d5c4\&quot;,\&quot;order\&quot;:8,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;san-storage-area-network-environment\&quot;,\&quot;title\&quot;:\&quot;SAN (Storage Area Network) Environment\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;a038cab4-46d3-48e4-ad6a-f916e848d7ce\&quot;,\&quot;slug\&quot;:\&quot;configure-backup-environment\&quot;,\&quot;title\&quot;:\&quot;Configure Backup Environment\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;a8ad5c7d-45c1-48b7-a613-99ae48565671\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;a038cab4-46d3-48e4-ad6a-f916e848d7ce\&quot;,\&quot;slug\&quot;:\&quot;licenses\&quot;,\&quot;title\&quot;:\&quot;Licenses\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;a5071ebe-fa33-4187-9da1-575b44ce11fa\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;96b67bda-8a40-435f-9111-844fb9ee7a9f\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;sso-for-okta-vault\&quot;,\&quot;title\&quot;:\&quot;SSO for OKTA\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;557c0128-a788-476b-b62c-bd984b2c70bf\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;sso-with-microsoft-azure-ad-for-vault\&quot;,\&quot;title\&quot;:\&quot;SSO with Microsoft Azure AD for Vault\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;a038cab4-46d3-48e4-ad6a-f916e848d7ce\&quot;,\&quot;slug\&quot;:\&quot;sso-configuration\&quot;,\&quot;title\&quot;:\&quot;SSO Configuration\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;b6e2c347-25b2-45c7-9b50-2839b2750a62\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;37dc9662-b976-4f66-92ff-b90e0daa1eb1\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;backup-configuration\&quot;,\&quot;title\&quot;:\&quot;Backup Configuration\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;146a425a-9bcc-4f7c-990e-81af28762069\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;archival-configuration\&quot;,\&quot;title\&quot;:\&quot;Archival Configuration\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;a038cab4-46d3-48e4-ad6a-f916e848d7ce\&quot;,\&quot;slug\&quot;:\&quot;registering-salesforce-org\&quot;,\&quot;title\&quot;:\&quot;Registering Salesforce Org\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;d9a65b29-46db-4f99-9652-9be6b6f3bcaa\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;a038cab4-46d3-48e4-ad6a-f916e848d7ce\&quot;,\&quot;slug\&quot;:\&quot;scheduled-backup-list\&quot;,\&quot;title\&quot;:\&quot;Scheduled Backup List\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;c3a88f17-b66f-4e0f-a1b8-915681b2f2aa\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;a038cab4-46d3-48e4-ad6a-f916e848d7ce\&quot;,\&quot;slug\&quot;:\&quot;alerts-and-notifications\&quot;,\&quot;title\&quot;:\&quot;Alerts and Notifications\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;deb3a49a-47ea-422e-a6da-0b0ded0baa4d\&quot;,\&quot;slug\&quot;:\&quot;configuring-vault\&quot;,\&quot;title\&quot;:\&quot;Configuring Vault\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;77ddcae5-c2d4-474c-a987-bae9a4876739\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;d0e9c477-bab5-4ca1-b0d2-bd2bdaa90ece\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;77ddcae5-c2d4-474c-a987-bae9a4876739\&quot;,\&quot;slug\&quot;:\&quot;backup\&quot;,\&quot;title\&quot;:\&quot;Backup\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;f56e72b9-c719-44dc-92f6-e79d6cd4543b\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;25b30dba-5ebb-492a-b2dc-a5cf9e177191\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;comparing-two-backups\&quot;,\&quot;title\&quot;:\&quot;Comparing two Backups\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;77ddcae5-c2d4-474c-a987-bae9a4876739\&quot;,\&quot;slug\&quot;:\&quot;compare\&quot;,\&quot;title\&quot;:\&quot;Compare\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;cc867825-af23-472f-a248-873595e6250e\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;b585349c-2c16-403e-8bf2-2f70ddeb2663\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;restoring-the-metadatadata-to-the-salesforce-org\&quot;,\&quot;title\&quot;:\&quot;Restoring the Metadata/Data to the Salesforce Org\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;77ddcae5-c2d4-474c-a987-bae9a4876739\&quot;,\&quot;slug\&quot;:\&quot;restore\&quot;,\&quot;title\&quot;:\&quot;Restore\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;85250942-7cc0-4761-95e6-6dac0f13f995\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;5c2aa1ad-09e8-45ec-a28b-6c0b9104a0f0\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;replicating-objects-between-two-salesforce-orgs\&quot;,\&quot;title\&quot;:\&quot;Replicating objects between two Salesforce Orgs\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;77ddcae5-c2d4-474c-a987-bae9a4876739\&quot;,\&quot;slug\&quot;:\&quot;replicate\&quot;,\&quot;title\&quot;:\&quot;Replicate\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;aca6ab7b-454e-4163-a8c7-89ffd1265fd8\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;6292fbbc-31e9-4ea5-90c2-9bbe31eb200e\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;archiving-your-salesforce-data\&quot;,\&quot;title\&quot;:\&quot;Archiving your Salesforce Data\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;77ddcae5-c2d4-474c-a987-bae9a4876739\&quot;,\&quot;slug\&quot;:\&quot;archive\&quot;,\&quot;title\&quot;:\&quot;Archive\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;2e2f880d-3623-4f20-8dc7-208f51d11957\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;17d2980e-38e2-4d5d-a2e2-c18b8187e9d0\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;right-to-forget-request\&quot;,\&quot;title\&quot;:\&quot;Right to Forget Request\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;77ddcae5-c2d4-474c-a987-bae9a4876739\&quot;,\&quot;slug\&quot;:\&quot;gdpr-secure-and-comply\&quot;,\&quot;title\&quot;:\&quot;GDPR-Secure and Comply\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;cd96df16-4747-43ab-b2ae-be0c5da4fb3f\&quot;,\&quot;order\&quot;:7,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;d9c54102-5f72-4045-ab26-577c6f7fa1c2\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;registering-ncino-configured-salesforce-org\&quot;,\&quot;title\&quot;:\&quot;Registering nCino configured Salesforce Org\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;6fa41f0b-8e46-4db8-baba-418f66263ba9\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;backup-configuration-for-your-salesforce-org\&quot;,\&quot;title\&quot;:\&quot;Backup Configuration for your Salesforce Org\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;1b57dd03-8e8d-4529-954f-3d555864142c\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;archival-configuration-for-your-salesforce-org\&quot;,\&quot;title\&quot;:\&quot;Archival Configuration for your Salesforce Org\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;7cff480b-c687-46b7-ad77-bb6d1cfd81ef\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;restoring-ncino-features\&quot;,\&quot;title\&quot;:\&quot;Restoring nCino features\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;77ddcae5-c2d4-474c-a987-bae9a4876739\&quot;,\&quot;slug\&quot;:\&quot;ncino-1\&quot;,\&quot;title\&quot;:\&quot;nCino\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;deb3a49a-47ea-422e-a6da-0b0ded0baa4d\&quot;,\&quot;slug\&quot;:\&quot;vault-top-features\&quot;,\&quot;title\&quot;:\&quot;Top Features\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;84cb1257-7ab1-4eb1-b4a0-cddd79863257\&quot;,\&quot;order\&quot;:5,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;deb3a49a-47ea-422e-a6da-0b0ded0baa4d\&quot;,\&quot;slug\&quot;:\&quot;contacting-support\&quot;,\&quot;title\&quot;:\&quot;Contacting Support\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;9e45d0bf-c66d-4d2d-81a6-bf2517c91bb0\&quot;,\&quot;order\&quot;:6,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;9f9a6058-6892-487e-9f15-4eaa62136c90\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;1b1b918c-9381-474a-a534-f2d604eb4dc3\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;backup-best-practices\&quot;,\&quot;title\&quot;:\&quot;Backup Best Practices\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;5cfffdec-662a-49d9-a88a-0033d4a92bd6\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;restorereplicate-best-practices\&quot;,\&quot;title\&quot;:\&quot;Restore/Replicate Best Practices\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;9e45d0bf-c66d-4d2d-81a6-bf2517c91bb0\&quot;,\&quot;slug\&quot;:\&quot;best-practices-1\&quot;,\&quot;title\&quot;:\&quot;Best Practices\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;46fce2ac-78f0-4916-925d-ce02513636aa\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;e7e267d9-7fd8-4672-8f3d-a5fb6ad27feb\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;general-guidelines-on-salesforce-limitations\&quot;,\&quot;title\&quot;:\&quot;General Guidelines on Salesforce Limitations\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;18471ea9-a951-47b4-bad7-4fd8ffc42c81\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;unsupported-components-with-metadata-api\&quot;,\&quot;title\&quot;:\&quot;Unsupported Components with Metadata API \&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;9e45d0bf-c66d-4d2d-81a6-bf2517c91bb0\&quot;,\&quot;slug\&quot;:\&quot;limitations\&quot;,\&quot;title\&quot;:\&quot;Salesforce Limitations\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;435d1d82-7f41-42aa-9006-2f9c3e66bfec\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;parentCategoryId\&quot;:\&quot;9e45d0bf-c66d-4d2d-81a6-bf2517c91bb0\&quot;,\&quot;slug\&quot;:\&quot;common-errors-and-solutions\&quot;,\&quot;title\&quot;:\&quot;Common Issues and Solutions\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;parentCategoryId\&quot;:\&quot;deb3a49a-47ea-422e-a6da-0b0ded0baa4d\&quot;,\&quot;slug\&quot;:\&quot;any-questions\&quot;,\&quot;title\&quot;:\&quot;Troubleshooting\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:2,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;slug\&quot;:\&quot;vault\&quot;,\&quot;title\&quot;:\&quot;Vault\&quot;,\&quot;icon\&quot;:\&quot;\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;0ec11101-e3e1-4af6-9dc2-13b641b0bd54\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;codescan-1\&quot;,\&quot;title\&quot;:\&quot;CodeScan\&quot;,\&quot;icon\&quot;:\&quot;\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;14ec2f01-1751-45b1-94e0-84fcdc5f412b\&quot;,\&quot;order\&quot;:4,\&quot;documentationType\&quot;:0,\&quot;children\&quot;:[{\&quot;id\&quot;:\&quot;7519d73a-beb8-4acf-80bd-c08034cf44fa\&quot;,\&quot;order\&quot;:1,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;installing-vs-code-extension\&quot;,\&quot;title\&quot;:\&quot;Installing VS Code Extension\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;b9c2617c-420b-4443-b069-527f9d7370e2\&quot;,\&quot;order\&quot;:2,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;configuring-vs-code-extension\&quot;,\&quot;title\&quot;:\&quot;Configuring VS Code Extension\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false},{\&quot;id\&quot;:\&quot;4d9187f7-0308-4648-9acf-b9b7e0559c00\&quot;,\&quot;order\&quot;:3,\&quot;documentationType\&quot;:1,\&quot;children\&quot;:[],\&quot;slug\&quot;:\&quot;working-with-vs-code-extension\&quot;,\&quot;title\&quot;:\&quot;Working with VS Code Extension\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;slug\&quot;:\&quot;visual-code-extension\&quot;,\&quot;title\&quot;:\&quot;Visual Code Extension\&quot;,\&quot;icon\&quot;:\&quot;\&quot;,\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:true,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:1,\&quot;isDefaultCategoryHidden\&quot;:false}],\&quot;iconType\&quot;:0,\&quot;isPublic\&quot;:false,\&quot;isHidden\&quot;:false,\&quot;categoryType\&quot;:0,\&quot;isDefaultCategoryHidden\&quot;:false}',
+    isMainVersion: 'True' === 'True',
+    languageCode: 'en',
+    versionSlug: 'july-2021',
+    darkThemeEnabled: 'True',
+    isPreview: 'False' === 'True',
+    thankFeedBack: 'Thank you for your feedback',
+    new: 'New',
+    updated: 'Updated',
+    tocTags: 'h2,h3',
+    deprecated: 'Deprecated',
+    showFacebookShareButton: 'True',
+    showTwitterShareButton: 'True',
+    showLinkedinShareButton: 'True',
+    showEmailShareButton: 'True'
+};
+
+
+$(document).ready(function () {
+    let hardUrl = decodeURIComponent('%2fdocs%2fautomated-release-management');
+    loadArticle("", "", "", "", hardUrl, true);
+
+    $(window).bind('popstate', function(event) {
+        if (window.history.state || localStorage.getItem("initLoading") === "FALSE") {
+            localStorage.setItem("isPopState", "TRUE");
+            location.reload();
+        }
+    });
+});
+</script>
+
+        </div>
+    </div>
+    <div class="notify-toaster"></div>
+
+    <div id="smartBarContainer2">
+
+    </div>
+            <div class="custom-footer">
+                AutoRABIT Help Center © 2021. All rights reserved.
+
+            </div>
+
+
+
+    <custom-js id="customJavaScript">
+        <script>
+          (function (w,d,s,o,f,js,fjs) {
+            w['JS-Widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+            js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+        }(window, document, 'script', 'mw', 'https://cdn.document360.io/static/js/widget.js'));
+        mw('init', { apiKey: '7zBGjbDpYlI4Ef5TtibFArTjZHcLspXRXkHTYruszfTqID35IrOP/+kaWFV/tB8kIaqs8akrZq7yiz90RtmvIgWZOpoijJb50N9DuA0KgSmbOOEPswdzI/rOcJBre82MsT7O+ouMQaugnLONyLq/bQ==' });
+        </script>
+    </custom-js>
+
+    <!-- Include AlgoliaSearch JS Client and autocomplete.js library -->
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js?t=1604893222738"></script>
+    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js?t=1604893222738"></script>
+
+
+    
+
+        <div id="cookieConsentDiv" class="cookie-consent-cont  cookie-bar bottom  cookie-light-theme" style=" display:none;">
+
+            <div class="content"><p><strong>Cookie consent</strong></p><p>We use our own and third-party cookies to understand how you interact with our knowledge base. This helps us show you more relevant content and ads based on your browsing and navigation history.</p></div>
+
+
+                <button id="cookieConsentCta" class="cookie-close  cookie-light-theme">
+                    Accept all cookies
+                </button>
+
+        </div>
+
+    <div id="smartBarGlobalDiv" class="info-bar" style="display:none">
+        <div class="info-bar-in">
+            <div id="smartBarContent" class="info-bar-cont">
+
+            </div>
+        </div>
+    </div>
+    <div class="back-to-top" id="back-to-top"><i class="fal fa-angle-up"></i></div>
+</body>
+</html>
